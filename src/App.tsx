@@ -3,7 +3,7 @@ import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
 import { About } from "./sections/About";
 import { Mood } from "./sections/Mood";
-import { Contact } from "./sections/Contact";
+import { ReachOut } from "./sections/ReachOut";
 import { Footer } from "./sections/Footer";
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
         <Hero />
         <About />
         <Mood />
-        <Contact />
+        <ReachOut />
         <Footer />
       </main>
     </div>

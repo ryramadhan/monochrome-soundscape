@@ -1,7 +1,7 @@
 const nav = [
   { id: "about", label: "About" },
   { id: "mood", label: "Mood" },
-  { id: "contact", label: "Contact" },
+  { id: "reach-out", label: "Reach Out" },
 ] as const;
 
 export function Header() {

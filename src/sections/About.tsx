@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import { sectionMotion } from "../lib/animations";
 
-const profileSrc =
-  "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=640&q=80&auto=format&fit=crop";
-
+const profileSrc = "/src/assets/profile.jpg";
 export function About() {
   return (
     <motion.section

@@ -7,17 +7,17 @@ const LISTEN_LINKS = {
   spotify: "https://open.spotify.com/user/ktjcs82o2sm1btg5l9lnm6gzt",
 } as const;
 
-export function Contact() {
+export function ReachOut() {
   const [sent, setSent] = useState(false);
 
   return (
     <motion.section
-      id="contact"
+      id="reach-out"
       className="mt-28 border-t border-white/5 pt-20"
       {...sectionMotion}
     >
       <h2 className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-neutral-500">
-        Contact
+        Reach Out
       </h2>
       {sent ? (
         <div className="max-w-xl space-y-3">
