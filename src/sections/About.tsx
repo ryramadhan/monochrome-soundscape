@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { sectionMotion } from "../lib/animations";
+import profileSrc from "../assets/profile.jpg";
 
-const profileSrc = "/src/assets/profile.jpg";
 export function About() {
   return (
     <motion.section
