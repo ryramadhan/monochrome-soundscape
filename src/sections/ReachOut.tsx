@@ -22,8 +22,8 @@ export function ReachOut() {
       {sent ? (
         <div className="max-w-xl space-y-3">
           <p className="text-sm leading-relaxed text-neutral-300">
-            Mantap—pesannya udah ke-record di sini. Thanks for reaching out,
-            ya; nanti kita lanjut lewat kontak yang kamu cantumkan.
+            oke pesannya uda ke-record disini. thanks for reaching out.
+            ya, nanti kita lanjut lewat kontak yang kamu cantumin.
           </p>
         </div>
       ) : (
@@ -35,18 +35,18 @@ export function ReachOut() {
           }}
         >
           <p className="text-sm leading-relaxed text-neutral-400">
-            Sama seperti musik yang dipilih dengan hati-hati,{" "}
+            sama seperti musik yang dipilih dengan hati',{" "}
             <span className="text-neutral-300">message</span> kamu juga
-            boleh datang{" "}
+            bole datang{" "}
             <span className="text-neutral-300">slow and honest</span>.{" "}
-            <span className="text-neutral-300">Reach out</span> kalau ada
-            yang ingin disampaikan; aku baca dulu,{" "}
-            <span className="text-neutral-300">reply</span> dilanjutkan dari{" "}
+            <span className="text-neutral-300">reach out</span> kalo ada
+            yang ingin disampein. aku baca dulu,{" "}
+            <span className="text-neutral-300">reply</span> lanjut dari{" "}
             <span className="text-neutral-300">contact</span> yang kamu
-            cantumkan.
+            cantumin.
           </p>
           <p className="text-sm leading-relaxed text-neutral-500">
-            Atau DM langsung di{" "}
+            atau dm{" "}
             <a
               href={LISTEN_LINKS.instagram}
               target="_blank"
@@ -70,7 +70,7 @@ export function ReachOut() {
               required
               autoComplete="name"
               className="w-full border-0 border-b border-neutral-700 bg-transparent py-2 text-neutral-100 outline-none transition placeholder:text-neutral-700 focus:border-white"
-              placeholder="How should I call you?"
+              placeholder="how should i call you?"
             />
           </div>
           <div>
@@ -87,7 +87,7 @@ export function ReachOut() {
               required
               autoComplete="email"
               className="w-full border-0 border-b border-neutral-700 bg-transparent py-2 text-neutral-100 outline-none transition placeholder:text-neutral-700 focus:border-white"
-              placeholder="Where can I reach you?"
+              placeholder="where can i reach you?"
             />
           </div>
           <div>
@@ -103,7 +103,7 @@ export function ReachOut() {
               required
               rows={4}
               className="w-full resize-none border-0 border-b border-neutral-700 bg-transparent py-2 text-neutral-100 outline-none transition placeholder:text-neutral-700 focus:border-white"
-              placeholder="Whatever is on your mind—singkat juga gapapa, yang penting dari kamu."
+              placeholder="whatever is on your mind. singkat juga gpp, yang penting dari kamu."
             />
           </div>
           <button

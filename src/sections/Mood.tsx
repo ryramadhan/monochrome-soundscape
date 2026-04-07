@@ -20,7 +20,7 @@ export function Mood() {
       <div className="grid gap-6 md:grid-cols-2">
         <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/30 p-10 transition hover:border-white/20">
           <blockquote className="text-lg font-light leading-relaxed text-neutral-200 sm:text-xl">
-            &ldquo;Kedalaman tidak harus berisik. Kadang ia hanya berdiri di
+            &ldquo;kedalaman tidak harus berisik. kadang ia hanya berdiri di
             sana—rapi, sunyi, dan tegas dalam batasnya sendiri.&rdquo;
           </blockquote>
           <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
@@ -33,7 +33,7 @@ export function Mood() {
               Visual tone
             </p>
             <p className="text-sm leading-relaxed text-neutral-400">
-              Ruang negatif sebagai bahasa. Kontras lembut antara hitam
+              ruang negatif sebagai bahasa. kontras lembut antara hitam
               pekat dan putih yang tidak menuntut perhatian—cukup hadir.
             </p>
           </div>

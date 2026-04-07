@@ -27,17 +27,17 @@ export function About() {
           About
         </h2>
         <p className="text-lg font-light leading-[1.75] text-neutral-300 sm:text-xl">
-          Sebuah ruang yang tenang di antara ide, irama, dan bentuk. Saya
-          menyukai ketika hal-hal rumit disederhanakan tanpa kehilangan
+          sebuah ruang yang tenang di antara ide, irama, dan bentuk. aku
+          menyukai ketika hal' rumit disederhanakan tanpa kehilangan
           kedalaman—garis tipis antara disiplin dan daya cipta, antara sunyi
-          dan intensitas. Ini bukan pameran pencapaian; ini hanya nuansa:
+          dan intensitas. ini bukan pameran pencapaian; ini hanya nuansa:
           profesional, setia pada estetika, dan terbuka pada hal yang halus
           namun tegas.
         </p>
         <p className="mt-6 text-sm leading-relaxed text-neutral-500">
-          Mendengarkan musik adalah hobi yang sangat saya nikmati—dari
+          mendengarkan musik adalah hobi yang sangat aku nikmati—dari
           susunan lagu sampai kedalaman lirik—tanpa harus memusatkan semua
-          perhatian pada satu genre. Di situs ini musik tetap latar yang
+          perhatian pada satu genre. di situs ini musik tetap latar yang
           tidak mengambil alih narasi; visual monokrom mempertahankan fokus
           pada karakter dan mood, bukan pada riuhnya warna.
         </p>
