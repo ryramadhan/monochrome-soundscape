@@ -2,7 +2,7 @@ import { useState } from "react";
 
 /** YouTube privacy-enhanced embed — dipakai di dalam section Mood (bukan fixed). */
 export const YOUTUBE_EMBED_SRC =
-  "https://www.youtube-nocookie.com/embed/J5r3MDJGoaw?si=d4xKzGWgCbfg-UW9";
+  "https://www.youtube-nocookie.com/embed/glscfhJyZHo?si=agd815fF5pbZDrKV";
 
 export function YoutubePlayer() {
   const [loading, setLoading] = useState(true);

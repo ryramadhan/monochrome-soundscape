@@ -77,20 +77,22 @@ export function Mood() {
             Soundscape — fragmen lirik
           </p>
           <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
-            <p>Submit to me, come get down on one knee</p>
-            <p>
-              I&rsquo;m your savior and I&rsquo;ll give you everything that
-              you need
-            </p>
-            <p className="text-neutral-500 sm:text-base">(That you need)</p>
-            <p>Submit to me, come get down on one knee</p>
-            <p>
-              I&rsquo;m your savior and I&rsquo;ll give you everything that
-              you need
-            </p>
+            <p>Is it a crime to be unsure?</p>
+            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
+            <p>In time, we&apos;ll find</p>
+            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
+            <p>If it&apos;s sustainable</p>
+            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
+            <p>You&apos;re pure, you&apos;re kind</p>
+            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
+            <p>Mature, divine</p>
+            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
+            <p>You might be too good for me, unattainable</p>
+            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
+            <p>Maybe we get married one day, but who knows?</p>
           </blockquote>
           <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
-            — Daniel Caesar, &ldquo;Too Deep to Turn Back&rdquo;
+            — Daniel Caesar, &ldquo;Who Knows&rdquo;
           </figcaption>
         </figure>
       </div>

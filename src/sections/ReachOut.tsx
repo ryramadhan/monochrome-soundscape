@@ -25,10 +25,6 @@ export function ReachOut() {
             Mantap—pesannya udah ke-record di sini. Thanks for reaching out,
             ya; nanti kita lanjut lewat kontak yang kamu cantumkan.
           </p>
-          <p className="text-xs text-neutral-600">
-            (Demo lokal: sambungkan ke backend atau layanan formulir saat
-            sudah siap.)
-          </p>
         </div>
       ) : (
         <form
@@ -74,7 +70,7 @@ export function ReachOut() {
               required
               autoComplete="name"
               className="w-full border-0 border-b border-neutral-700 bg-transparent py-2 text-neutral-100 outline-none transition placeholder:text-neutral-700 focus:border-white"
-              placeholder="Nama kamu"
+              placeholder="How should I call you?"
             />
           </div>
           <div>
@@ -91,7 +87,7 @@ export function ReachOut() {
               required
               autoComplete="email"
               className="w-full border-0 border-b border-neutral-700 bg-transparent py-2 text-neutral-100 outline-none transition placeholder:text-neutral-700 focus:border-white"
-              placeholder="kamu@email.com"
+              placeholder="Where can I reach you?"
             />
           </div>
           <div>
