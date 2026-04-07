@@ -94,6 +94,11 @@ export function Mood() {
           <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
             — Daniel Caesar, &ldquo;Who Knows&rdquo;
           </figcaption>
+          <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
+            lagu ini sering kudengar: ada pelajarannya — tak apa untuk ragu.
+            dalam waktu, kita akan temukan jawabnya. mungkin yang terbaik
+            memang butuh kesabaran, dan itu cukup menarik untuk ditunggu.
+          </p>
         </figure>
       </div>
     </motion.section>
