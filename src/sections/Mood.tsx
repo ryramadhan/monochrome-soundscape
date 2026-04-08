@@ -52,11 +52,8 @@ export function Mood() {
         </div>
 
         <div className="border border-white/10 bg-neutral-900/30 p-8 transition hover:border-white/20 md:col-span-2 md:p-10">
-          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
+          <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
             01. TOO DEEP TO TURN BACK
-          </p>
-          <p className="mb-6 text-[10px] uppercase tracking-[0.22em] text-neutral-600">
-            Daniel Caesar / selected tracks
           </p>
           <YoutubePlayer />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
@@ -122,11 +119,8 @@ export function Mood() {
           </p>
         </figure>
         <div className="border border-white/10 bg-neutral-900/30 p-8 transition hover:border-white/20 md:col-span-2 md:p-10">
-          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
+          <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
             02. Neu Roses (Transgressor&apos;s Song)
-          </p>
-          <p className="mb-6 text-[10px] uppercase tracking-[0.22em] text-neutral-600">
-            Daniel Caesar / selected tracks
           </p>
           <YoutubePlayer
             src={NEU_ROSES_EMBED_SRC}
@@ -184,11 +178,8 @@ export function Mood() {
           </p>
         </figure>
         <div className="border border-white/10 bg-neutral-900/30 p-8 transition hover:border-white/20 md:col-span-2 md:p-10">
-          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
+          <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
             03. Who Knows
-          </p>
-          <p className="mb-6 text-[10px] uppercase tracking-[0.22em] text-neutral-600">
-            Daniel Caesar / selected tracks
           </p>
           <YoutubePlayer
             src={WHO_KNOWS_EMBED_SRC}
@@ -257,11 +248,8 @@ export function Mood() {
           </p>
         </figure>
         <div className="border border-white/10 bg-neutral-900/30 p-8 transition hover:border-white/20 md:col-span-2 md:p-10">
-          <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
+          <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
             04. Transform
-          </p>
-          <p className="mb-6 text-[10px] uppercase tracking-[0.22em] text-neutral-600">
-            Daniel Caesar / selected tracks
           </p>
           <YoutubePlayer
             src={TRANSFORM_EMBED_SRC}
