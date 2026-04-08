@@ -166,10 +166,11 @@ export function Mood() {
             — Daniel Caesar, &ldquo;Neu Roses (Transgressor&apos;s Song)&rdquo;
           </figcaption>
           <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
-            lagu ini mengingatkanku pada kesalahan yang kubuat sendiri; karena
-            ego, aku memilih pergi terlalu cepat dan meninggalkan seseorang tanpa
-            penjelasan yang layak. kini yang tersisa adalah penyesalan, dan
-            perlahan belajar memahami luka yang kubuat.
+            lagu ini terasa tenang, namun menyimpan penyesalan yang tidak
+            sederhana. liriknya mengingatkanku pada keputusan yang pernah
+            kuambil karena ego—pergi terlalu cepat dan meninggalkan seseorang
+            tanpa penjelasan yang layak. kini, yang tersisa adalah belajar
+            memahami luka yang kubuat sendiri.
           </p>
         </figure>
       </div>
