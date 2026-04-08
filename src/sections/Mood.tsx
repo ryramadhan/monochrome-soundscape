@@ -306,6 +306,28 @@ export function Mood() {
             ego dan belajar menerima apa adanya.
           </p>
         </figure>
+        <div className="grid gap-6 md:col-span-2 md:grid-cols-2">
+          <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/20 p-8 transition hover:border-white/20 md:p-10">
+            <blockquote className="max-w-3xl text-lg font-light leading-relaxed text-neutral-200 sm:text-xl">
+              &ldquo;bagian ini merangkum lirik yang paling dekat dengan pengalaman
+              pribadi saya. setiap lagu mewakili fase yang berbeda, dan catatan
+              di bawahnya saya tulis sebagai refleksi singkat dari proses yang
+              pernah saya jalani.&rdquo;
+            </blockquote>
+            <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
+              — personal note on lyric &amp; memory
+            </figcaption>
+          </figure>
+          <figure className="group flex min-h-[280px] flex-col justify-between border border-white/10 bg-[radial-gradient(ellipse_at_30%_20%,rgba(255,255,255,0.07),transparent_55%),radial-gradient(ellipse_at_70%_80%,rgba(255,255,255,0.04),transparent_50%)] p-10 transition hover:border-white/20">
+            <blockquote className="max-w-3xl text-lg font-light leading-relaxed text-neutral-300 sm:text-xl">
+              &ldquo;maaf untuk siapa pun yang mungkin pernah terluka oleh ucapan
+              atau perbuatanku, sengaja maupun tidak.&rdquo;
+            </blockquote>
+            <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
+              — quiet apology
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </motion.section>
   );
