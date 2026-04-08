@@ -306,17 +306,18 @@ export function Mood() {
             ego dan belajar menerima apa adanya.
           </p>
         </figure>
-        <div className="my-14 flex justify-center md:col-span-2 md:my-16">
-          <div className="max-w-2xl">
-            <blockquote className="mt-6 text-center text-sm italic leading-relaxed text-neutral-500">
-              &ldquo;maaf untuk siapa pun yang mungkin pernah terluka oleh ucapan
-              atau perbuatanku, sengaja maupun tidak.&rdquo;
-            </blockquote>
-            <figcaption className="mt-6 text-center text-[11px] uppercase tracking-[0.2em] text-neutral-600">
-              — quiet apology
-            </figcaption>
-          </div>
-        </div>
+        <figure className="my-12 border-t border-white/5 pt-10 md:col-span-2">
+          <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
+            Closing note
+          </p>
+          <blockquote className="max-w-3xl text-base font-light leading-relaxed text-neutral-300">
+            &ldquo;maaf untuk siapa pun yang mungkin pernah terluka oleh ucapan
+            atau perbuatanku, sengaja maupun tidak.&rdquo;
+          </blockquote>
+          <figcaption className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
+            — quiet apology
+          </figcaption>
+        </figure>
       </div>
     </motion.section>
   );
