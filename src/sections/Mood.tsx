@@ -11,6 +11,8 @@ const NEU_ROSES_EMBED_SRC =
   "https://www.youtube.com/embed/OyQIWH9huFw?si=teNATYF5BzFtGGoZ";
 const WHO_KNOWS_EMBED_SRC =
   "https://www.youtube.com/embed/glscfhJyZHo?si=-0Q2bhCwiJbPn_rx";
+const TRANSFORM_EMBED_SRC =
+  "https://www.youtube.com/embed/r_nbv4_t8yQ?si=O2HJwrbgvpURSOAa";
 
 export function Mood() {
   return (
@@ -243,6 +245,65 @@ export function Mood() {
             apa untuk ragu. dalam waktu, kita akan menemukan jawabnya. mungkin
             yang terbaik memang butuh kesabaran, dan itu cukup menarik untuk
             ditunggu.
+          </p>
+        </figure>
+        <div className="border border-white/10 bg-neutral-900/30 p-8 transition hover:border-white/20 md:col-span-2 md:p-10">
+          <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
+            Mood
+          </p>
+          <YoutubePlayer
+            src={TRANSFORM_EMBED_SRC}
+            title="YouTube — Daniel Caesar Transform"
+          />
+          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
+            listen & linger
+          </p>
+          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
+            <a
+              href={LISTEN_LINKS.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              Instagram
+            </a>
+            <a
+              href={LISTEN_LINKS.spotify}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              Spotify
+            </a>
+          </div>
+        </div>
+        <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
+          <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
+            Soundscape — lyric fragment
+          </p>
+          <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
+            <p>Saved my soul like Jesus</p>
+            <p>Can&apos;t quit you, you&apos;re like drugs</p>
+            <p>Swear I tried to clean up</p>
+            <p>Too much shared between us</p>
+
+            <p>Saved my soul like Jesus</p>
+            <p>Can&apos;t quit you, you&apos;re like drugs</p>
+            <p>Swear I tried to clean up</p>
+            <p>Too much shared between us</p>
+
+            <p>Saved my soul like Jesus</p>
+          </blockquote>
+          <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
+            — Daniel Caesar, &ldquo;Transform&rdquo;
+          </figcaption>
+          <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
+            lagu ini terdengar sederhana, namun terasa intens; tentang keterikatan
+            yang sulit dilepas, tentang ego yang kerap membuat segalanya rumit, dan
+            tentang usaha untuk berubah menjadi lebih baik meski tidak selalu
+            berhasil. sebagai seseorang yang mudah bosan dan kadang meninggalkan
+            tanpa alasan jelas, lagu ini mengingatkanku untuk perlahan menurunkan
+            ego dan belajar menerima apa adanya.
           </p>
         </figure>
       </div>
