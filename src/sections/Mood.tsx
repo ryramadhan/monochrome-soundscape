@@ -88,10 +88,14 @@ export function Mood() {
               I&apos;m your savior and I&apos;ll give you everything that you
               need
             </p>
+            <div className="my-4 h-px w-20 bg-white/10" />
+
             <p>Lately you been on a wave</p>
             <p>Seen you lit up in the place</p>
             <p>Sometimes you&apos;re sad, I see it on your face</p>
             <p>I can tell you&apos;re not okay</p>
+
+            <div className="my-4 h-px w-20 bg-white/10" />
             <p>I know you&apos;re only seeking out the beauty</p>
             <p>In fulfilling your duty</p>
             <p>The answers it seems</p>
