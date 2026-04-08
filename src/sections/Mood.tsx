@@ -74,30 +74,37 @@ export function Mood() {
 
         <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
           <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
-            Soundscape — fragmen lirik
+            Soundscape — lyric fragment
           </p>
           <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
-            <p>Is it a crime to be unsure?</p>
-            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
-            <p>In time, we&apos;ll find</p>
-            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
-            <p>If it&apos;s sustainable</p>
-            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
-            <p>You&apos;re pure, you&apos;re kind</p>
-            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
-            <p>Mature, divine</p>
-            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
-            <p>You might be too good for me, unattainable</p>
-            <p className="text-neutral-500">(Let me know, let me know, let me know, let me)</p>
-            <p>Maybe we get married one day, but who knows?</p>
+            <p>Submit to me, come get down on one knee</p>
+            <p>
+              I&apos;m your savior and I&apos;ll give you everything that you
+              need
+            </p>
+            <p className="text-neutral-500">(That you need)</p>
+            <p>Submit to me, come get down on one knee</p>
+            <p>
+              I&apos;m your savior and I&apos;ll give you everything that you
+              need
+            </p>
+            <p>Lately you been on a wave</p>
+            <p>Seen you lit up in the place</p>
+            <p>Sometimes you&apos;re sad, I see it on your face</p>
+            <p>I can tell you&apos;re not okay</p>
+            <p>I know you&apos;re only seeking out the beauty</p>
+            <p>In fulfilling your duty</p>
+            <p>The answers it seems</p>
+            <p>Are inside your own dreams</p>
           </blockquote>
           <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
-            — Daniel Caesar, &ldquo;Who Knows&rdquo;
+            — Daniel Caesar, &ldquo;TOO DEEP TO TURN BACK&rdquo;
           </figcaption>
           <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
-            lagu ini sering kudengar: ada pelajarannya — tak apa untuk ragu.
-            dalam waktu, kita akan temukan jawabnya. mungkin yang terbaik
-            memang butuh kesabaran, dan itu cukup menarik untuk ditunggu.
+            lagu ini sering kudengar; terdengar lembut, namun menyentuh bagian
+            yang sulit dijelaskan. di tengah rindu yang belum selesai, liriknya
+            mengajak untuk tetap tenang, menerima proses, dan perlahan menemukan
+            kejelasan dari dalam diri.
           </p>
         </figure>
       </div>
