@@ -7,6 +7,9 @@ const LISTEN_LINKS = {
   spotify: "https://open.spotify.com/user/ktjcs82o2sm1btg5l9lnm6gzt",
 } as const;
 
+const NEU_ROSES_EMBED_SRC =
+  "https://www.youtube.com/embed/OyQIWH9huFw?si=teNATYF5BzFtGGoZ";
+
 export function Mood() {
   return (
     <motion.section
@@ -50,7 +53,7 @@ export function Mood() {
           </p>
           <YoutubePlayer />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
-            Lanjut dengar &amp; ikuti
+            listen & linger
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -109,6 +112,64 @@ export function Mood() {
             yang sulit dijelaskan. di tengah rindu yang belum selesai, liriknya
             mengajak untuk tetap tenang, menerima proses, dan perlahan menemukan
             kejelasan dari dalam diri.
+          </p>
+        </figure>
+        <div className="border border-white/10 bg-neutral-900/30 p-8 transition hover:border-white/20 md:col-span-2 md:p-10">
+          <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
+            Mood
+          </p>
+          <YoutubePlayer
+            src={NEU_ROSES_EMBED_SRC}
+            title="YouTube — Daniel Caesar Neu Roses (Transgressor's Song)"
+          />
+          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
+            listen & linger
+          </p>
+          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
+            <a
+              href={LISTEN_LINKS.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              Instagram
+            </a>
+            <a
+              href={LISTEN_LINKS.spotify}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              Spotify
+            </a>
+          </div>
+        </div>
+        <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
+          <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
+            Soundscape — lyric fragment
+          </p>
+          <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
+            <p>There are times I think about that fateful day</p>
+            <p>I threw your love away</p>
+            <p>Every time I see that look upon your face</p>
+            <p>The same one that you made</p>
+            <div className="my-4 h-px w-20 bg-white/10" />
+            <p>
+              When your fragile world was crashing down around you (crashing
+              down around you)
+            </p>
+            <p>You realized your place</p>
+            <p>And the darkness that you try so hard to subdue</p>
+            <p>It causes you to change</p>
+          </blockquote>
+          <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
+            — Daniel Caesar, &ldquo;Neu Roses (Transgressor&apos;s Song)&rdquo;
+          </figcaption>
+          <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
+            lagu ini sering kudengar; saat mengingat kesalahan yang kubuat sendiri.
+            karena ego, aku pergi terlalu cepat dan meninggalkan seseorang tanpa
+            penjelasan yang layak. kini yang tersisa adalah penyesalan, dan
+            perlahan belajar untuk jujur pada luka yang kubuat.
           </p>
         </figure>
       </div>

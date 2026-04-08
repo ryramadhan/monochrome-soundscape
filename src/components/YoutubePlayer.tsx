@@ -4,7 +4,15 @@ import { useState } from "react";
 export const YOUTUBE_EMBED_SRC =
   "https://www.youtube.com/embed/J5r3MDJGoaw?si=_-oaITsoOUMD3Cy8";
 
-export function YoutubePlayer() {
+type YoutubePlayerProps = {
+  src?: string;
+  title?: string;
+};
+
+export function YoutubePlayer({
+  src = YOUTUBE_EMBED_SRC,
+  title = "YouTube — mood soundscape",
+}: YoutubePlayerProps) {
   const [loading, setLoading] = useState(true);
 
   return (
@@ -20,8 +28,8 @@ export function YoutubePlayer() {
           </div>
         )}
         <iframe
-          title="YouTube — mood soundscape"
-          src={YOUTUBE_EMBED_SRC}
+          title={title}
+          src={src}
           frameBorder={0}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
