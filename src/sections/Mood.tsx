@@ -308,18 +308,6 @@ export function Mood() {
             ego dan belajar menerima apa adanya.
           </p>
         </figure>
-        <figure className="my-12 border-t border-white/5 pt-10 md:col-span-2">
-          <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
-            Closing note
-          </p>
-          <blockquote className="max-w-3xl text-base font-light leading-relaxed text-neutral-300">
-            &ldquo;maaf untuk siapa pun yang mungkin pernah terluka oleh ucapan
-            atau perbuatanku, sengaja maupun tidak.&rdquo;
-          </blockquote>
-          <figcaption className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
-            — quiet apology
-          </figcaption>
-        </figure>
       </div>
     </motion.section>
   );

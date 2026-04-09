@@ -112,6 +112,19 @@ export function ReachOut() {
           >
             <span className="transition group-hover:text-white">Kirim</span>
           </button>
+
+          <figure className="my-12 border-t border-white/5 pt-10">
+            <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
+              Closing note
+            </p>
+            <blockquote className="max-w-3xl text-base font-light leading-relaxed text-neutral-300">
+              &ldquo;sejuta maaf untuk siapapun yang mungkin hatinya pernah tergores
+              dengan tidak sengaja oleh perbuatan atau ucapanku.&rdquo;
+            </blockquote>
+            <figcaption className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
+              — quiet apology
+            </figcaption>
+          </figure>
         </form>
       )}
     </motion.section>
