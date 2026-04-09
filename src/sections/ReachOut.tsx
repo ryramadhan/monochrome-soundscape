@@ -18,7 +18,7 @@ export function ReachOut() {
       {...sectionMotion}
     >
       <Toast
-        message="oke pesannya uda ke-record disini. thanks for reaching out."
+        message="oke, uda ke-record. thanks."
         isVisible={sent}
         onClose={() => setSent(false)}
       />
