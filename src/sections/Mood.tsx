@@ -363,7 +363,7 @@ export function Mood() {
             — Backstreet Boys, &ldquo;Shape of My Heart&rdquo;
           </figcaption>
           <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
-            lagu ini memang jarang kudengar; namun saat memahami liriknya, terasa dekat dengan masa lalu yang pernah kulalui. ada fase di mana aku menyembunyikan perasaan dan mencoba menjadi seseorang yang bukan diriku.
+            lagu ini memang jarang kudengar, dan terasa sedikit berbeda dari yang biasanya; namun saat memahami liriknya, terasa dekat dengan masa lalu yang pernah kulalui. ada fase di mana aku menyembunyikan perasaan dan mencoba menjadi seseorang yang bukan diriku.
             tanpa sadar, hal itu justru melukai orang yang seharusnya kujaga—bukan karena tidak peduli, tapi karena saat itu aku belum benar-benar memahami diriku sendiri.
             kini, yang tersisa adalah penyesalan, dan proses untuk belajar lebih jujur; agar tidak mengulangi hal yang sama.
           </p>
