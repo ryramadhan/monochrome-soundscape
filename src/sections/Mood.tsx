@@ -56,8 +56,8 @@ export function Mood() {
             01. TOO DEEP TO TURN BACK
           </p>
           <YoutubePlayer />
-          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
-            Listen
+          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
+            Listen — Click video to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -126,8 +126,8 @@ export function Mood() {
             src={NEU_ROSES_EMBED_SRC}
             title="YouTube — Daniel Caesar Neu Roses (Transgressor's Song)"
           />
-          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
-            Listen
+          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
+            Listen — Click video to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -185,8 +185,8 @@ export function Mood() {
             src={WHO_KNOWS_EMBED_SRC}
             title="YouTube — Daniel Caesar Who Knows"
           />
-          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
-            Listen
+          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
+            Listen — Click video to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -207,6 +207,7 @@ export function Mood() {
             </a>
           </div>
         </div>
+
         <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
           <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
             Soundscape — lyric fragment
@@ -255,8 +256,8 @@ export function Mood() {
             src={TRANSFORM_EMBED_SRC}
             title="YouTube — Daniel Caesar Transform"
           />
-          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-600">
-            Listen
+          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
+            Listen — Click video to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -277,6 +278,7 @@ export function Mood() {
             </a>
           </div>
         </div>
+
         <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
           <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
             Soundscape — lyric fragment
