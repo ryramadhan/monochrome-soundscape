@@ -16,7 +16,7 @@ export function YoutubePlayer({
   const [loading, setLoading] = useState(true);
 
   return (
-    <div className="group overflow-hidden rounded-xl border border-white/10 bg-neutral-900/40 shadow-lg shadow-black/40">
+    <div className="group overflow-hidden rounded-xl border border-white/10 bg-neutral-900/40 shadow-lg shadow-black/40 grayscale transition duration-500 hover:grayscale-0">
       <div className="relative aspect-video w-full max-w-3xl">
         {loading && (
           <div className="absolute inset-0 flex items-center justify-center bg-neutral-900/60">
