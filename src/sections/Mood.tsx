@@ -281,6 +281,52 @@ export function Mood() {
 
         <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
           <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
+            Shape of My Heart
+          </p>
+          <blockquote className="max-w-3xl text-base font-light italic leading-relaxed text-neutral-200 sm:text-lg">
+            &ldquo;Now let me show you the shape of my heart...&rdquo;
+          </blockquote>
+          <p className="mt-6 text-sm leading-relaxed text-neutral-400">
+            Backstreet Boys — tentang penyesalan, kejujuran, dan keinginan untuk
+            terbuka dengan apa adanya.
+          </p>
+          <YoutubePlayer src="https://www.youtube.com/embed/OT5msu-dap8?si=gU1Psjdg87-4PSIC" />
+          <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
+            Listen — Click music to play
+          </p>
+        </figure>
+
+        <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
+          <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
+            Soundscape — lyric fragment
+          </p>
+          <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
+            <p>Looking back on the things I&apos;ve done</p>
+            <p>I was trying to be someone</p>
+            <p>I played my part, kept you in the dark</p>
+            <p>Now let me show you the shape of my heart</p>
+
+            <p>Looking back on the things I&apos;ve done</p>
+            <p>I was trying to be someone</p>
+            <p>I played my part, kept you in the dark</p>
+            <p>Now let me show you the shape of</p>
+
+            <p>Show you the shape of my heart</p>
+          </blockquote>
+          <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
+            — Backstreet Boys, &ldquo;Shape of My Heart&rdquo;
+          </figcaption>
+          <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
+            lagu ini adalah ungkapan penyesalan mendalam atas masa lalu—tentang
+            bagaimana kita sering menyembunyikan diri demi validasi orang lain,
+            hingga akhirnya melukai mereka yang berarti. sebuah janji untuk terbuka,
+            untuk menunjukkan hati yang sebenarnya, dan untuk berhenti berpura-pura
+            menjadi seseorang yang bukan diri kita.
+          </p>
+        </figure>
+
+        <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
+          <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
             Soundscape — lyric fragment
           </p>
           <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
