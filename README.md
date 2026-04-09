@@ -16,7 +16,8 @@ A minimalist, monochrome personal landing page showcasing mood, music, and aesth
 - 🎬 **Smooth Animations** — Powered by Framer Motion
 - 🎧 **Mood Soundscape** — YouTube embed with loading skeleton
 - 📱 **Responsive Design** — Optimized for all screen sizes
-- 📝 **Contact Form** — Ready-to-connect section
+- 📝 **Contact Form** — Ready-to-connect section with toast notification
+- 🧭 **Active Navigation** — Smart section indicator on scroll
 - 🖤 **Monochrome Aesthetic** — Clean, minimal visual identity
 
 ---
@@ -37,7 +38,7 @@ A minimalist, monochrome personal landing page showcasing mood, music, and aesth
 
 ```
 src/
-├── components/     # Reusable components (MouseTrail, YoutubePlayer)
+├── components/     # Reusable components (MouseTrail, YoutubePlayer, Toast)
 ├── sections/       # Page sections (Header, Hero, About, Mood, Contact, Footer)
 ├── lib/            # Shared utilities (animations)
 └── App.tsx         # Main application
