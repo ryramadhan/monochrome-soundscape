@@ -281,20 +281,64 @@ export function Mood() {
 
         <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
           <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
-            Shape of My Heart
+            Soundscape — lyric fragment
           </p>
-          <blockquote className="max-w-3xl text-base font-light italic leading-relaxed text-neutral-200 sm:text-lg">
-            &ldquo;Now let me show you the shape of my heart...&rdquo;
+          <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
+            <p>Saved my soul like Jesus</p>
+            <p>Can&apos;t quit you, you&apos;re like drugs</p>
+            <p>Swear I tried to clean up</p>
+            <p>Too much shared between us</p>
+
+            <p>Saved my soul like Jesus</p>
+            <p>Can&apos;t quit you, you&apos;re like drugs</p>
+            <p>Swear I tried to clean up</p>
+            <p>Too much shared between us</p>
+
+            <p>Saved my soul like Jesus</p>
           </blockquote>
-          <p className="mt-6 text-sm leading-relaxed text-neutral-400">
-            Backstreet Boys — tentang penyesalan, kejujuran, dan keinginan untuk
-            terbuka dengan apa adanya.
+          <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
+            — Daniel Caesar, &ldquo;Transform&rdquo;
+          </figcaption>
+          <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
+            lagu ini terdengar sederhana, namun terasa intens; tentang keterikatan
+            yang sulit dilepas, tentang ego yang kerap membuat segalanya rumit, dan
+            tentang usaha untuk berubah menjadi lebih baik meski tidak selalu
+            berhasil. sebagai seseorang yang mudah bosan dan kadang meninggalkan
+            tanpa alasan jelas, lagu ini mengingatkanku untuk perlahan menurunkan
+            ego dan belajar menerima apa adanya.
           </p>
-          <YoutubePlayer src="https://www.youtube.com/embed/OT5msu-dap8?si=gU1Psjdg87-4PSIC" />
+        </figure>
+
+        <div className="border border-white/10 bg-neutral-900/30 p-8 transition hover:border-white/20 md:col-span-2 md:p-10">
+          <p className="mb-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-neutral-500">
+            05. Shape of My Heart
+          </p>
+          <YoutubePlayer
+            src="https://www.youtube.com/embed/OT5msu-dap8?si=gU1Psjdg87-4PSIC"
+            title="YouTube — Backstreet Boys Shape of My Heart"
+          />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
             Listen — Click music to play
           </p>
-        </figure>
+          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
+            <a
+              href={LISTEN_LINKS.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              Instagram
+            </a>
+            <a
+              href={LISTEN_LINKS.spotify}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-white"
+            >
+              Spotify
+            </a>
+          </div>
+        </div>
 
         <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
           <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
@@ -322,36 +366,6 @@ export function Mood() {
             hingga akhirnya melukai mereka yang berarti. sebuah janji untuk terbuka,
             untuk menunjukkan hati yang sebenarnya, dan untuk berhenti berpura-pura
             menjadi seseorang yang bukan diri kita.
-          </p>
-        </figure>
-
-        <figure className="group relative overflow-hidden border border-white/10 bg-neutral-900/25 p-10 transition hover:border-white/20 md:col-span-2">
-          <p className="mb-6 text-[11px] uppercase tracking-[0.25em] text-neutral-600">
-            Soundscape — lyric fragment
-          </p>
-          <blockquote className="max-w-3xl space-y-4 text-base font-light leading-relaxed text-neutral-200 sm:text-lg">
-            <p>Saved my soul like Jesus</p>
-            <p>Can&apos;t quit you, you&apos;re like drugs</p>
-            <p>Swear I tried to clean up</p>
-            <p>Too much shared between us</p>
-
-            <p>Saved my soul like Jesus</p>
-            <p>Can&apos;t quit you, you&apos;re like drugs</p>
-            <p>Swear I tried to clean up</p>
-            <p>Too much shared between us</p>
-
-            <p>Saved my soul like Jesus</p>
-          </blockquote>
-          <figcaption className="mt-8 text-[11px] uppercase tracking-[0.2em] text-neutral-600 transition group-hover:text-neutral-500">
-            — Daniel Caesar, &ldquo;Transform&rdquo;
-          </figcaption>
-          <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
-            lagu ini terdengar sederhana, namun terasa intens; tentang keterikatan
-            yang sulit dilepas, tentang ego yang kerap membuat segalanya rumit, dan
-            tentang usaha untuk berubah menjadi lebih baik meski tidak selalu
-            berhasil. sebagai seseorang yang mudah bosan dan kadang meninggalkan
-            tanpa alasan jelas, lagu ini mengingatkanku untuk perlahan menurunkan
-            ego dan belajar menerima apa adanya.
           </p>
         </figure>
       </div>
