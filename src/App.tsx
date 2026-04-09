@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { MouseTrail } from "./components/MouseTrail";
 import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
@@ -22,6 +23,7 @@ export default function App() {
         <ReachOut />
         <Footer />
       </main>
+      <Analytics />
     </div>
   );
 }
