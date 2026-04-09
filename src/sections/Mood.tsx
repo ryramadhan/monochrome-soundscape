@@ -57,7 +57,7 @@ export function Mood() {
           </p>
           <YoutubePlayer />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
-            Listen — Click video to play
+            Listen — Click music to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -127,7 +127,7 @@ export function Mood() {
             title="YouTube — Daniel Caesar Neu Roses (Transgressor's Song)"
           />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
-            Listen — Click video to play
+            Listen — Click music to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -186,7 +186,7 @@ export function Mood() {
             title="YouTube — Daniel Caesar Who Knows"
           />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
-            Listen — Click video to play
+            Listen — Click music to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
@@ -257,7 +257,7 @@ export function Mood() {
             title="YouTube — Daniel Caesar Transform"
           />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
-            Listen — Click video to play
+            Listen — Click music to play
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-400">
             <a
