@@ -13,6 +13,8 @@ const WHO_KNOWS_EMBED_SRC =
   "https://www.youtube.com/embed/glscfhJyZHo?si=-0Q2bhCwiJbPn_rx";
 const TRANSFORM_EMBED_SRC =
   "https://www.youtube.com/embed/r_nbv4_t8yQ?si=O2HJwrbgvpURSOAa";
+const SHAPE_OF_MY_HEART_EMBED_SRC =
+  "https://www.youtube.com/embed/OT5msu-dap8?si=gU1Psjdg87-4PSIC";
 
 export function Mood() {
   return (
@@ -314,7 +316,7 @@ export function Mood() {
             05. Shape of My Heart
           </p>
           <YoutubePlayer
-            src="https://www.youtube.com/embed/OT5msu-dap8?si=gU1Psjdg87-4PSIC"
+            src={SHAPE_OF_MY_HEART_EMBED_SRC}
             title="YouTube — Backstreet Boys Shape of My Heart"
           />
           <p className="mt-6 text-[11px] uppercase tracking-[0.2em] text-neutral-500">
