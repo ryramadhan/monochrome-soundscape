@@ -363,11 +363,9 @@ export function Mood() {
             — Backstreet Boys, &ldquo;Shape of My Heart&rdquo;
           </figcaption>
           <p className="mt-6 text-sm italic leading-relaxed text-neutral-500">
-            lagu ini adalah ungkapan penyesalan mendalam atas masa lalu—tentang
-            bagaimana kita sering menyembunyikan diri demi validasi orang lain,
-            hingga akhirnya melukai mereka yang berarti. sebuah janji untuk terbuka,
-            untuk menunjukkan hati yang sebenarnya, dan untuk berhenti berpura-pura
-            menjadi seseorang yang bukan diri kita.
+            lagu ini memang jarang kudengar; namun saat memahami liriknya, terasa dekat dengan masa lalu yang pernah kulalui. ada fase di mana aku menyembunyikan perasaan dan mencoba menjadi seseorang yang bukan diriku.
+            tanpa sadar, hal itu justru melukai orang yang seharusnya kujaga—bukan karena tidak peduli, tapi karena saat itu aku belum benar-benar memahami diriku sendiri.
+            kini, yang tersisa adalah penyesalan, dan proses untuk belajar lebih jujur; agar tidak mengulangi hal yang sama.
           </p>
         </figure>
       </div>
