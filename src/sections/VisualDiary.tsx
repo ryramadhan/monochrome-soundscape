@@ -102,7 +102,7 @@ export function VisualDiary() {
         lewati tanpa arah, hingga jalanan yang menyimpan cerita yang tak selalu
         bisa kami banggakan. bukan untuk dipamerkan, tapi untuk diingat, karena
         dulu kami hidup seolah tak ada yang perlu dijaga, dan justru di situlah
-        semuanya terasa nyata.
+        semuanya terasa nyata. (2022)
       </p>
     </motion.section>
   );
