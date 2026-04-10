@@ -1,6 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { MouseTrail } from "./components/MouseTrail";
+import { WelcomeToast } from "./components/WelcomeToast";
 import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
 import { About } from "./sections/About";
@@ -26,6 +27,7 @@ export default function App() {
         <ReachOut />
         <Footer />
       </main>
+      <WelcomeToast />
       <Analytics />
       <SpeedInsights />
     </div>
