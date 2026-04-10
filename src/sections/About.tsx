@@ -26,13 +26,11 @@ export function About() {
         <h2 className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-neutral-500">
           About
         </h2>
-        <p className="text-lg font-light leading-[1.75] text-neutral-300 sm:text-xl">
-          sebuah ruang yang tenang di antara ide, irama, dan bentuk. aku
-          menyukai ketika hal' rumit disederhanakan tanpa kehilangan
-          kedalaman—garis tipis antara disiplin dan daya cipta, antara sunyi
-          dan intensitas. ini bukan pameran pencapaian; ini hanya nuansa:
-          profesional, setia pada estetika, dan terbuka pada hal yang halus
-          namun tegas.
+        <p className="text-base font-light leading-[1.8] text-neutral-300">
+          sebuah ruang di antara ide, irama, dan bentuk—di mana kesederhanaan
+          tetap punya kedalaman. aku percaya pada garis tipis: disiplin dan
+          daya cipta, sunyi yang intens. bukan pamer pencapaian; hanya
+          nuansa yang elegan, setia pada estetika, dan tegas dalam ketenangan.
         </p>
         <p className="mt-6 text-sm leading-relaxed text-neutral-500">
           mendengarkan musik adalah hobi yang sangat aku nikmati—dari
