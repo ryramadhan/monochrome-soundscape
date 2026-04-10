@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { sectionMotion } from "../lib/animations";
 import diary1 from "../assets/bulat.jpg";
 import diary2 from "../assets/banyak.jpg";
-import videoClip1 from "../assets/video_2026-04-10_15-30-27.mp4";
-import videoClip2 from "../assets/video_2026-04-10_14-59-25.mp4";
+import videoClip1 from "../assets/video_2026-04-10_16-13-44.mp4";
+import videoClip2 from "../assets/video_2026-04-10_16-13-48.mp4";
 
 type MediaItem =
   | { type: "image"; src: string; caption: string }
