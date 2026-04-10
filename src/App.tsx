@@ -3,6 +3,7 @@ import { MouseTrail } from "./components/MouseTrail";
 import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
 import { About } from "./sections/About";
+import { VisualDiary } from "./sections/VisualDiary";
 import { Mood } from "./sections/Mood";
 import { ReachOut } from "./sections/ReachOut";
 import { Footer } from "./sections/Footer";
@@ -19,6 +20,7 @@ export default function App() {
       >
         <Hero />
         <About />
+        <VisualDiary />
         <Mood />
         <ReachOut />
         <Footer />
