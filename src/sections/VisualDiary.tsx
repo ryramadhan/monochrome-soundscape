@@ -60,37 +60,9 @@ function VideoPlayer({ src }: { src: string }) {
   );
 }
 
-function useNearViewport(threshold = 0.1) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [isNear, setIsNear] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsNear(true);
-          observer.disconnect();
-        }
-      },
-      { threshold, rootMargin: "200px" }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [threshold]);
-
-  return { ref, isNear };
-}
-
 export function VisualDiary() {
-  const { ref, isNear } = useNearViewport();
-
   return (
     <motion.section
-      ref={ref}
       id="diary"
       className="mt-28 border-t border-white/5 pt-20"
       {...sectionMotion}
@@ -100,7 +72,7 @@ export function VisualDiary() {
       </h2>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {isNear && media.map((item, index) => (
+        {media.map((item, index) => (
           <figure
             key={index}
             className="group relative aspect-[4/5] overflow-hidden rounded-sm border border-white/10 bg-neutral-900/30 transition hover:border-white/20"
@@ -123,7 +95,6 @@ export function VisualDiary() {
           </figure>
         ))}
       </div>
-      {!isNear && <div className="h-80" />}
 
       <p className="mt-8 max-w-2xl text-sm leading-relaxed text-neutral-500">
         fragmen waktu yang membeku—dari ruang-ruang yang pernah kami isi dengan
