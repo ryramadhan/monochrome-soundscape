@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { MouseTrail } from "./components/MouseTrail";
 import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
@@ -26,6 +27,7 @@ export default function App() {
         <Footer />
       </main>
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
