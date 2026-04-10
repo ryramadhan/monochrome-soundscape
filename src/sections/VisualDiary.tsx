@@ -97,10 +97,12 @@ export function VisualDiary() {
       </div>
 
       <p className="mt-8 max-w-2xl text-sm leading-relaxed text-neutral-500">
-        fragmen waktu yang membeku—dari refleksi di cermin, gerak yang tak pernah
-        diam, keramaian yang pernah kami buat, hingga tangan yang saling
-        temukan di saat nekat. bukan untuk dipamerkan, tapi untuk diingat.
-        beberapa cerita memang lebih baik tinggal jadi kenangan.
+        fragmen waktu yang membeku—dari ruang-ruang yang pernah kami isi dengan
+        suara terlalu keras, asap yang jadi saksi bisu, malam yang sering kami
+        lewati tanpa arah, hingga jalanan yang menyimpan cerita yang tak selalu
+        bisa kami banggakan. bukan untuk dipamerkan, tapi untuk diingat, karena
+        dulu kami hidup seolah tak ada yang perlu dijaga, dan justru di situlah
+        semuanya terasa nyata.
       </p>
     </motion.section>
   );
