@@ -47,6 +47,7 @@ export function VisualDiary() {
                 muted
                 loop
                 playsInline
+                preload="metadata"
                 className="h-full w-full object-cover grayscale transition duration-700 group-hover:scale-105 group-hover:grayscale-0"
               />
             )}
@@ -61,8 +62,9 @@ export function VisualDiary() {
 
       <p className="mt-8 max-w-2xl text-sm leading-relaxed text-neutral-500">
         fragmen waktu yang membeku—dari refleksi di cermin, gerak yang tak pernah
-        diam, hadir bersama dalam keramaian, hingga tangan yang saling temukan.
-        bukan untuk dipamerkan, tapi untuk diingat.
+        diam, keramaian yang pernah kami buat, hingga tangan yang saling
+        temukan di saat nekat. bukan untuk dipamerkan, tapi untuk diingat.
+        beberapa cerita memang lebih baik tinggal jadi kenangan.
       </p>
     </motion.section>
   );
