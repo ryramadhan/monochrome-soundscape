@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { sectionMotion } from "../lib/animations";
 import diary1 from "../assets/bulat.jpg";
@@ -15,6 +16,49 @@ const media: MediaItem[] = [
   { type: "image", src: diary2, caption: "us — faces in the crowd" },
   { type: "video", src: videoClip2, caption: "touch — meeting point" },
 ];
+
+function VideoPlayer({ src }: { src: string }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.3 }
+    );
+
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    if (isVisible) {
+      video.play().catch(() => { });
+    } else {
+      video.pause();
+    }
+  }, [isVisible]);
+
+  return (
+    <video
+      ref={videoRef}
+      src={src}
+      muted
+      loop
+      playsInline
+      preload="metadata"
+      className="h-full w-full object-cover grayscale transition duration-700 group-hover:scale-105 group-hover:grayscale-0"
+    />
+  );
+}
 
 export function VisualDiary() {
   return (
@@ -41,15 +85,7 @@ export function VisualDiary() {
                 loading="lazy"
               />
             ) : (
-              <video
-                src={item.src}
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="metadata"
-                className="h-full w-full object-cover grayscale transition duration-700 group-hover:scale-105 group-hover:grayscale-0"
-              />
+              <VideoPlayer src={item.src} />
             )}
             <figcaption className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 pt-12 opacity-0 transition duration-500 group-hover:opacity-100">
               <p className="text-[10px] uppercase tracking-[0.2em] text-neutral-300">
