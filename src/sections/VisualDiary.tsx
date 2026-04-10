@@ -4,7 +4,7 @@ import { sectionMotion } from "../lib/animations";
 import diary1 from "../assets/bulat.jpg";
 import diary2 from "../assets/banyak.jpg";
 import videoClip1 from "../assets/video_2026-04-10_16-13-44.mp4";
-import videoClip2 from "../assets/video_2026-04-10_16-13-48.mp4";
+import videoClip2 from "../assets/video_2026-04-11_00-18-16.mp4";
 
 type MediaItem =
   | { type: "image"; src: string; caption: string }
@@ -14,7 +14,7 @@ const media: MediaItem[] = [
   { type: "image", src: diary1, caption: "still — what the mirror holds" },
   { type: "video", src: videoClip1, caption: "pulse — night in motion" },
   { type: "image", src: diary2, caption: "us — faces in the crowd" },
-  { type: "video", src: videoClip2, caption: "touch — meeting point" },
+  { type: "video", src: videoClip2, caption: "drift — night moves" },
 ];
 
 function VideoPlayer({ src }: { src: string }) {
