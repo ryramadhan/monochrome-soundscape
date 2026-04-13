@@ -1,3 +1,4 @@
+
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { sectionMotion } from "../lib/animations";
@@ -5,6 +6,7 @@ import diary1 from "../assets/bulat.jpg";
 import diary2 from "../assets/banyak.jpg";
 import videoClip1 from "../assets/video_2026-04-10_16-13-44.mp4";
 import videoClip2 from "../assets/video_2026-04-11_00-18-16.mp4";
+import plainJaneAudio from "../assets/FERG - Plain Jane REMIX (Official Audio) ft (mp3cut.net).mp3";
 
 type MediaItem =
   | { type: "image"; src: string; caption: string }
@@ -16,6 +18,45 @@ const media: MediaItem[] = [
   { type: "image", src: diary2, caption: "us — faces in the crowd" },
   { type: "video", src: videoClip2, caption: "drift — night moves" },
 ];
+
+function AudioPlayer({ src, title }: { src: string; title?: string }) {
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const togglePlay = () => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    if (isPlaying) {
+      audio.pause();
+    } else {
+      audio.play().catch(() => { });
+    }
+    setIsPlaying(!isPlaying);
+  };
+
+  const handleEnded = () => {
+    setIsPlaying(false);
+  };
+
+  return (
+    <button
+      onClick={togglePlay}
+      className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-neutral-600 transition hover:text-neutral-400"
+      aria-label={isPlaying ? "Pause" : "Play"}
+    >
+      <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+        {isPlaying ? (
+          <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+        ) : (
+          <path d="M8 5v14l11-7z" />
+        )}
+      </svg>
+      <span>{title || "Play"}</span>
+      <audio ref={audioRef} src={src} preload="metadata" onEnded={handleEnded} />
+    </button>
+  );
+}
 
 function VideoPlayer({ src }: { src: string }) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -96,13 +137,16 @@ export function VisualDiary() {
         ))}
       </div>
 
+      <div className="mt-6">
+        <AudioPlayer src={plainJaneAudio} title="♪ Plain Jane — click to play" />
+      </div>
       <p className="mt-8 max-w-2xl text-sm leading-relaxed text-neutral-500">
         fragmen waktu yang membeku—dari ruang-ruang yang pernah kami isi dengan
         suara terlalu keras, asap yang jadi saksi bisu, malam yang sering kami
         lewati tanpa arah, hingga jalanan yang menyimpan cerita yang tak selalu
         bisa kami banggakan. bukan untuk dipamerkan, tapi untuk diingat, karena
         dulu kami hidup seolah tak ada yang perlu dijaga, dan justru di situlah
-        semuanya terasa nyata. (2022)
+        semuanya terasa nyata. — 2022
       </p>
     </motion.section>
   );
